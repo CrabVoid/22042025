@@ -9,7 +9,14 @@
 
 <body>
 
+    <?php
+    $settings = array("theme" => "dark", "font" => "Arial");
 
+    foreach ($settings as $x => $y) {
+        echo "$x: $y <br>";
+    }
+
+    ?>
 
 </body>
 
