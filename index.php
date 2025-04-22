@@ -10,11 +10,13 @@
 <body>
 
     <?php
+    echo "<ul>";
     $settings = array("theme" => "dark", "font" => "Arial");
 
     foreach ($settings as $x => $y) {
-        echo "$x: $y <br>";
+        echo "<li> $x: $y ";
     }
+    echo "<ul>";
 
     ?>
 
